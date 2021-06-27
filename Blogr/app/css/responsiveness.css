@@ -1,0 +1,76 @@
+@media screen and (max-width: 768px) {
+  .header .logo {
+    margin-top: 20px;
+    margin-right: 70%;
+  }
+  .header .burger-menu {
+    display: block;
+  }
+  .header .nav .left-nav,
+  .header .nav .right-nav {
+    display: none;
+  }
+  .header .hero-mid h1 {
+    font-size: 3rem;
+  }
+  .header .hero-mid p {
+    font-size: 1.2rem;
+  }
+  .description h2 {
+    font-size: 2.5rem;
+  }
+  .description .future {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .description .future .left-col p {
+    margin-right: 20%;
+  }
+  .infrastructure {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-right: 0%;
+  }
+  .infrastructure .infcols {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "infimage" "infabout";
+    margin-right: 0%;
+  }
+  .infrastructure .infcols .inf-image {
+    -o-object-fit: contain;
+       object-fit: contain;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: infimage;
+    margin-right: 0%;
+  }
+  .infrastructure .infcols .infract-about {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: infabout;
+    margin-right: 0%;
+    margin-left: 30px;
+  }
+  .tool {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px 0px;
+  }
+  .tool .left-col {
+    padding-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=responsiveness.css.map */
