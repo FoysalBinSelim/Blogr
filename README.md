@@ -1,2 +1,5 @@
 # Blogr
-Blogr landing page using raw htmal, sass and javascript
+
+**Blogr landing page using htmal, sass and javascript**
+# Visit Site: https://blogrfoysalbinselim.netlify.app
+
