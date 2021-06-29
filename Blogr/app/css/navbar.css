@@ -1,0 +1,236 @@
+.header {
+  background-color: #ff3d54;
+  border-radius: 0px 0px 0px 80px;
+  width: 100%;
+  position: relative;
+}
+
+.header .burger-menu {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+  display: none;
+}
+
+.header .burger-menu .lines {
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin: 5px;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 10px;
+}
+
+.header .nav .left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav .left-nav .service-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px;
+}
+
+.header .nav .left-nav .service-nav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.header .nav .left-nav .service-nav li img {
+  padding: 5px;
+  width: 80%;
+}
+
+.header .nav .left-nav .service-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Overpass' sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+}
+
+.header .nav .left-nav .service-nav li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header .nav .right-nav .cta {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav .right-nav .cta li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.header .nav .right-nav .cta li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Overpass' sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+}
+
+.header .nav .right-nav .cta li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.header .nav .right-nav .cta li .cta-signup {
+  color: #ff525d;
+  padding: 10px 20px;
+  display: inline-block;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+}
+
+.header .nav .right-nav .cta li .cta-signup:hover {
+  color: white;
+  background: #ff7a85;
+}
+
+.header .hero-mid {
+  margin-top: 40px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  padding: 10px 0px;
+}
+
+.header .hero-mid h1 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.header .hero-mid p {
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.header .hero-mid .cta-mid {
+  margin-top: 20px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .hero-mid .cta-mid li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  list-style: none;
+}
+
+.header .hero-mid .cta-mid li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Overpass' sans-serif;
+  font-weight: 600;
+}
+
+.header .hero-mid .cta-mid li .cta-startup {
+  color: #ff525d;
+  padding: 10px 20px;
+  display: inline-block;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+}
+
+.header .hero-mid .cta-mid li .cta-startup:hover {
+  color: white;
+  background: #ff7a85;
+}
+
+.header .hero-mid .cta-mid li .cta-learn {
+  border: 2px solid white;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in 0s;
+  transition: 0.4s ease-in 0s;
+}
+
+.header .hero-mid .cta-mid li .cta-learn:hover {
+  color: #ff525d;
+  background: white;
+}
+/*# sourceMappingURL=navbar.css.map */
